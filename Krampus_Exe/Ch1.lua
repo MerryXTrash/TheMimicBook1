@@ -1,7 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Book 1 Chapter 1 | By : Krampus_exe", "LightTheme")
-
-
 local Main = Window:NewTab("Main")
 local Section = Tab:NewSection("Auto win")
 Section:NewButton("Skip", "Skip", function()
